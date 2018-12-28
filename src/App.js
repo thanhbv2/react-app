@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Table, Button, Modal } from 'antd';
 import fetchUtils from './fetchUtils';
 import axios from 'axios';
+import 'antd/dist/antd.css';
 
 class App extends Component {
   constructor(props) {
